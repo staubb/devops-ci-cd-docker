@@ -4,3 +4,5 @@ print("Versão 3")
 print("Versão 4")
 print("Versão 5")
 print("CI/CD funcionando")
+
+print("ci-test")
