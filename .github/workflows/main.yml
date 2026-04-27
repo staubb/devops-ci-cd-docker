@@ -18,8 +18,11 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Run app
-        run: python main.py
+      - name: Install dependencies
+        run: pip install pytest
+
+      - name: Run tests
+        run: pytest
 
   deploy:
     runs-on: ubuntu-latest
