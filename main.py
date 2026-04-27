@@ -1,8 +1,17 @@
-print("Hello DevOps!")
-print("Versão 2")
-print("Versão 3")
-print("Versão 4")
-print("Versão 5")
-print("CI/CD funcionando")
+def soma(a, b):
+    return a + b
 
-print("ci-test")
+def subtracao(a, b):
+    return a - b
+
+def multiplicacao(a, b):
+    return a * b
+
+def divisao(a, b):
+    if b == 0:
+        return None
+    return a / b
+
+
+if __name__ == "__main__":
+    print("Hello DevOps!")
